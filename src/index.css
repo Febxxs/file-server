@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-pettern {
+  background-color: #e5e5f7;
+  opacity: 0.2;
+  background-image: radial-gradient(
+      #444cf7 0.8500000000000001px,
+      transparent 0.8500000000000001px
+    ),
+    radial-gradient(#444cf7 0.8500000000000001px, #e5e5f7 0.8500000000000001px);
+  background-size: 34px 34px;
+  background-position: 0 0, 17px 17px;
+}

@@ -3,6 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { motion } from "motion/react";
 import homeImage from "../../assets/homeImage.svg";
 import { slideinFromLeft, slideinFromRight } from "../../utils/motion";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -27,6 +28,8 @@ const HeroSection = () => {
             radius="none"
             color="primary"
             size="lg"
+            as={Link}
+            to="/login"
             className="font-bold text-white"
           >
             Download

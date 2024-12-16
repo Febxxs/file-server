@@ -7,10 +7,10 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Link,
   Button,
 } from "@nextui-org/react";
 import { CircuitBoard } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Navigationbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -65,6 +65,8 @@ export default function Navigationbar() {
             color="primary"
             radius="none"
             className="font-bold"
+            as={Link}
+            to="/login"
           >
             Masuk
           </Button>
@@ -74,6 +76,8 @@ export default function Navigationbar() {
             color="primary"
             radius="none"
             className="text-white font-bold"
+            as={Link}
+            to="/register"
           >
             Daftar
           </Button>

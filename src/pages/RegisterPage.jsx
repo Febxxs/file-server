@@ -1,11 +1,11 @@
 import FormRegister from "../components/auth/FormRegister";
-import AuthFormLayout from "../layouts/AuthLayout";
+import AuthLayout from "../layouts/AuthLayout";
 
 const RegisterPage = () => {
   return (
-    <AuthFormLayout type="register">
+    <AuthLayout type="register">
       <FormRegister />
-    </AuthFormLayout>
+    </AuthLayout>
   );
 };
 

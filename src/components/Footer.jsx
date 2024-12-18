@@ -43,7 +43,7 @@ const Footer = () => {
             <h2 className="text-lg font-semibold mb-4">Social Media</h2>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/Febxxs"
+                href={import.meta.env.VITE_GITHUB}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl hover:text-gray-400"

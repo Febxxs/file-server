@@ -70,3 +70,18 @@ export const itemVariants = {
     },
   },
 };
+
+export const SidebarAnimation = {
+  open: {
+    width: "16rem",
+    transition: {
+      damping: 40,
+    },
+  },
+  closed: {
+    width: "4rem",
+    transition: {
+      damping: 40,
+    },
+  },
+};

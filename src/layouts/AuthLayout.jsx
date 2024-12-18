@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-const AuthFormLayout = ({ children, type }) => {
+const AuthLayout = ({ children, type }) => {
   return (
     <main className="container mx-auto max-w-sm">
       <div className="flex justify-center items-center min-h-screen flex-col gap-5">
@@ -37,4 +37,4 @@ const AuthFormLayout = ({ children, type }) => {
   );
 };
 
-export default AuthFormLayout;
+export default AuthLayout;
